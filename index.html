@@ -5,8 +5,11 @@
   <meta charset="utf-8">
 
   <title>My Resume</title>
-
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +17,71 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="intro">
+   
+    <img class="resume" src="https://voolas.com/wp-content/uploads/2015/07/harry-potter.jpg" alt="harry potter">
+
+    <h1>Harry Potter - Wizard</h1>
+    <div class="border"></div>
+    <p>I am known for defeating Lord Voldemort</p>
+  </section>
+  <section class="skills">
+    <h2>Skills</h2>
+  
+    <table id="skills">
+    
+      <td>Magic</td>
+      <td>Defense Against Dark Arts</td>
+      <td>CSS</td>
+      <td>HTML</td>
+      <td>Javascript</td>
+
+    </table>
+  </section>
+
+  <section class="history">
+    <h3>Work History</h3>
+
+    <table id="history">
+      <tr>
+        <th>Company</th>
+        <th>Title</th>
+        <th>Years</th>
+      </tr>
+      <tr>
+        <td>Ministry of Magic</td>
+        <td>Auror</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Lambda</td>
+        <td>Web Developer</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Hogwarts</td>
+        <td>Student</td>
+        <td>7</td>
+      </tr>
+    </table>
+  </section>
+
+  <address>  
+    <h4>Contact</h4>
+    <p>4 Privet Drive<br>
+    Little Whinging, Surrey</p>
+    <p>1 (888) 888-8888</p>
+    <p>harry@harrypotter.io</p>
+  </address>
+</div>
 </body>
 </html>
